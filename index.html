@@ -21,7 +21,7 @@
 
         document.getElementById('startBtn').onclick = async () => {
             try {
-                const resp = await fetch('https://duopei-2.onrender.com/start');
+                const resp = await fetch('https://duopei-production.up.railway.app/start');
                     log('已发送启动请求');
 
             } catch (e) {
@@ -31,7 +31,7 @@
 
         document.getElementById('stopBtn').onclick = async () => {
             try {
-                const resp = await fetch('https://duopei-2.onrender.com/stop');
+                const resp = await fetch('https://duopei-production.up.railway.app/stop');
                     log('已发送停止请求');
    
             } catch (e) {
